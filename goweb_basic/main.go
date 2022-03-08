@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+//
 func barHandler(w http.ResponseWriter, r *http.Request) {
 	values := r.URL.Query()
 	name := values.Get("name")
